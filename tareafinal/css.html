@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Personal - CSS</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/css.css">
+
+    <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"/>
+</head>
+<body>
+    <h1>Laisa Kenani Hernandez Guzman <span>Ingeniería en Computación</span></h1>
+
+    <!-- Menu de navegación -->
+    <div class="fondo-nav">
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="clientes.php">Clientes</a>
+            <a href="sobreMi.html">Sobre mi</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+    <nav id="uniqueNav">
+        <div class="mobile">
+            <div class="header">
+                <div class="logo">Logo</div>
+                <div class="more">
+                    <button id="bMore">
+                        <span class="material-icons">menu </span> 
+                    </button>
+                </div>
+            </div>
+            <div id="links" class="links">
+                <a href ="#">Services</a>
+                <a href ="#">About</a>
+                <a href ="#">Contact</a>
+                <a href ="#">Search</a>
+                <a href ="#">Sign up</a>
+                <a href ="#">Login</a>
+            </div> 
+        </div>
+
+        <div class="desktop">
+            <div class="logo">logo</div>
+
+            <div class="primary">
+                <a href ="#">Services</a>
+                <a href ="#">About</a>
+                <a href ="#">Contact</a>
+            </div>
+
+            <div class="secondary full">
+                <a href ="#">Search</a>
+                <a href ="#">Sign up</a>
+                <a href ="#">Login</a>
+            </div>
+
+             <!-- redimensionar si no es 1920 px (HD). Se contraen ciertas opciones -->
+            <div class="secondary mini"> 
+                <a href="#" class="more">More</a>
+                <div class="submenu">
+                <a href ="#">Search</a>
+                <a href ="#">Sign up</a>
+                <a href ="#">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+      <!-- ejemplo 2        -->
+      <div class="cards">
+        <div class="card">
+            <div class="header">
+                <div class="date">24 de febrero</div>
+                <div class="title">como funcione css</div>
+            </div>
+            <div class="footer">
+                <div class="autor">
+                    <a href="#">
+                        <img src="perfil.jpeg" alt="">
+                        <span>Marcos Rivas</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+      
+         
+        <div class="card element-2">
+            <div class="header">
+                <div class="date">24 de febrero</div>
+                <div class="title">como funcione css</div>
+            </div>
+            <div class="footer">
+                <div class="autor">
+                    <a href="#">
+                        <img src="perfil.jpeg" alt="">
+                        <span>Marcos Rivas</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+      
+        <div class="card element-3">
+            <div class="header">
+                <div class="date">24 de febrero</div>
+                <div class="title">como funcione css</div>
+            </div>
+            <div class="footer">
+                <div class="autor">
+                    <a href="#">
+                        <img src="perfil.jpeg" alt="">
+                        <span>Marcos Rivas</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card element-4">
+            <div class="header">
+                <div class="date">24 de febrero</div>
+                <div class="title">como funcione css</div>
+            </div>
+            <div class="footer">
+                <div class="autor">
+                    <a href="#">
+                        <img src="perfil.jpeg" alt="">
+                        <span>Marcos Rivas</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ejemplo 3 -->
+    <table>
+        <caption>Tabla</caption>
+
+
+        <thead>
+            <tr>
+                <th>Titulo 1</th>
+                <th>Titulo 2</th>
+                <th>Titulo 3</th>
+                <th>Titulo 4</th>
+                <th>Titulo 5</th>
+                <th>Titulo 6</th>
+                <th>Titulo 7</th>
+                
+            </tr>
+        </thead>
+
+
+  <tbody>
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+
+    <tr>
+        <td>Marcos Rivas</td>
+        <td>Mexico</td>
+        <td>$3,500</td>
+        <td>$6,500</td>
+        <td>88.67</td>
+        <td>1.75</td>
+        <td>21</td>
+    </tr>
+  </tbody>
+
+
+  <tfoot>
+    <tr>
+        <th></th>
+        <th></th>
+        <th>$3,500</th>
+        <th>$6,500</th>
+        <th>88.67</th>
+        <th>1.75</th>
+        <th>21</th>
+    </tr>
+  </tfoot>
+    </table>
+
+    <!-- ejemplo 4 -->
+    <div class="notification">
+        <div class="count">29</div>
+        <div class="material-icons">notifications</div>
+    </div>
+
+    <!-- ejemplo 5 -->
+    <div class="form-container">
+        <div class="login-container">
+            <h2>Welcome</h2>
+            <p>selecciona el metodo de autenticacion</p>
+
+            <form action="">
+                <p>
+                    <label for="username">Username</label>
+                    <input class="input" type="text" name="username" id="username">
+                </p>
+
+
+
+                <p>
+                <label for="password">Password</label>
+                <input class="input" type="text" name="password" id="password">
+            </p>
+
+
+            
+            <div class="options">
+               <div>
+                Remember me
+                <input type="checkbox" name="rememberme" id="rememberme">
+
+               </div>
+
+            <div>
+                <a href="#">I forgot my password</a>
+            </div>
+            </div>
+           
+            <p>
+                <input type="submit" class="btn btn-login" value="Log in">
+               
+            </p>
+             <div class="providers">
+
+                <span>Choose another method to authenticate</span>
+                <button class="btn btn-google">Google</button>
+                <button class="btn btn-facebook">facebook</button>
+                <button class="btn btn-twitter">twitter</button>
+             </div>
+            </form>
+        </div>
+
+        <div class="welcome-screen-container"></div>
+    </div>
+
+    <!-- ejemplo 6 -->
+    <div class="progressbar-container">
+        <div class="outer-box">
+            <div class="inner-box">50%</div>
+            <svg 
+            xmlns="https://www.w3.org/2000/svg" 
+            version="1.1"
+            width="200"
+            height="200"
+            >
+            <defs>
+                <linearGradient id="gradientColor">
+                    <stop offset="0%" stop-color="#DDF2FD" />
+                    <stop offset="100%" stop-color="#164863" />
+                </linearGradient>
+            </defs>
+            <circle cx="100" cy="100" r="80" stroke-linecap="round"/>
+        </svg>
+        </div>
+    </div>
+
+    <!-- ejemplo 7 -->
+    <div class="price-table-container">
+        <div class="table">
+            <div class="title">Startup Plan</div>
+            <div class="price">
+                <span class="currency">$</span>
+                <span class="number">69</span>
+                <span class="frecuency">mo</span>
+            </div>
+            <div class="features">
+                <ul>
+                    <li>
+                        <span class="material-icons check_circle"> check_circle</span>
+                        Ease Access
+                    </li>
+                    <li>
+                        <span class="material-icons check_circle"> check_circle</span>
+                        Ease Access
+                    </li>
+                    <li>
+                        <span class="material-icons check_circle"> check_circle</span>
+                        Ease Access
+                    </li>
+                    <li>
+                        <span class="material-icons check_circle"> check_circle</span>
+                        Ease Access
+                    </li>
+                    <li>
+                        <span class="material-icons check_circle"> check_circle</span>
+                        Ease Access
+                    </li>
+                </ul>
+            </div>
+            <div class="actions">
+                <a href="#" class="btn">Try for free</a>
+            </div>
+        </div>
+        <div class="table recommended">
+            <div class="title">Startup Plan</div>
+            <div class="price">
+                <span class="currency">$</span>
+                <span class="number">69</span>
+                <span class="frcuency">mo</span>
+            </div>
+            <div class="features">
+                <ul>
+                    <li>
+                        <span class="material-icons check_circle"> check_circle</span>
+                        Ease Access
+                    </li>
+                    <li>
+                        <span class="material-icons check_circle"> check_circle</span>
+                        Ease Access
+                    </li>
+                    <li>
+                        <span class="material-icons check_circle"> check_circle</span>
+                        Ease Access
+                    </li>
+                    <li>
+                        <span class="material-icons check_circle"> check_circle</span>
+                        Ease Access
+                    </li>
+                    <li>
+                        <span class="material-icons check_circle"> check_circle</span>
+                        Ease Access
+                    </li>
+                </ul>
+            </div>
+            <div class="actions">
+                <a href="#" class="btn recommended">Try for free</a>
+            </div>
+        </div>
+        <div class="table">
+            <div class="title">Startup Plan</div>
+            <div class="price">
+                <span class="currency">$</span>
+                <span class="number">69</span>
+                <span class="frcuency">mo</span>
+            </div>
+            <div class="features">
+                <ul>
+                    <li>
+                        <span class="material-icons check_circle"> check_circle</span>
+                        Ease Access
+                    </li>
+                    <li>
+                        <span class="material-icons check_circle"> check_circle</span>
+                        Ease Access
+                    </li>
+                    <li>
+                        <span class="material-icons check_circle"> check_circle</span>
+                        Ease Access
+                    </li>
+                    <li>
+                        <span class="material-icons check_circle"> check_circle</span>
+                        Ease Access
+                    </li>
+                    <li>
+                        <span class="material-icons check_circle"> check_circle</span>
+                        Ease Access
+                    </li>
+                </ul>
+            </div>
+            <div class="actions">
+                <a href="#" class="btn">Try for free</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ejemplo 8 -->
+    <label class="checkbox-container"> 
+        Soy un checkbox
+        <input type="checkbox" name="" id=""/>
+        <span class="checkmark">
+            <span class="material-symbols-outlined"></span>
+        </span>
+    </label>
+
+    <label class="checkbox-container"> 
+        Soy un radio button
+        <input type="radio" name="a" id=""/>
+        <span class="checkmark radio">
+            <div class="circle"></div>
+        </span>
+    </label>
+    <label class="checkbox-container"> 
+        Soy un radio button
+        <input type="radio" name="a" id=""/>
+        <span class="checkmark radio">
+            <div class="circle"></div>
+        </span>
+    </label>
+
+    <!-- ejemplo 9 -->
+    <div class="search-bar">
+        <input type="text">
+        <div class="actions">
+            <button>
+                <span class="material-icons">mic</span>
+            </button>
+            <button>
+                <span class="material-icons">document_scanner</span>
+            </button>
+            <button>
+                <span class="material-icons">search</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- ejemplo 10 -->
+    <div class="slider-container">
+        <div class="slider-viewport">
+            <div class="slide" id="slide1">1</div>
+            <div class="slide" id="slide2">2</div>
+            <div class="slide" id="slide3">3</div>
+            <div class="slide" id="slide4">4</div>
+            <div class="slide" id="slide5">5</div>
+        </div>
+
+        <div class="links">
+            <a href="#slide1">1</a>
+            <a href="#slide2">2</a>
+            <a href="#slide3">3</a>
+            <a href="#slide4">4</a>
+            <a href="#slide5">5</a>
+        </div>
+    </div>
+</body>
+</html>

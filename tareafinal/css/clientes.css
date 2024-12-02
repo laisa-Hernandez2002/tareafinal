@@ -1,0 +1,127 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    background-color: #BF2EF0;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    color: var(--verdefuerte);
+    font-size: 3.5rem;
+    margin-bottom: 5px;
+}
+
+:root {
+    --verdefuerte: #987D9A;
+    --verde: #a77db4;
+    --verdeclaro: #BF2EF0;
+    --gris: #BF2EF0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+  
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4e0168;
+    text-transform: uppercase;
+    border-bottom: 2px solid #e0e0e0;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+  
+  
+.head-2, .p-ubicacion {
+    color: white !important;
+    margin-left: 2em;
+}
+  
+  
+span {
+    color: var(--verdeclaro);
+    font-size: 1.5rem;
+}
+    
+.fondo-nav {
+    background-color: var(--verdefuerte);
+}
+  
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--verdefuerte);
+    margin: 0 15%;
+}
+  
+.menu a {
+    color: var(--gris);
+    font-size: 1.5rem;
+    width: 15rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    padding: 1.5rem 0;
+}
+  
+.menu a:hover {
+    background-color: var(--gris);
+    color: var(--verdefuerte);
+}
+
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #290f32;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #BF2EF0;
+    color: white;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #fffef9;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FEECB3;
+}
+
+tbody tr:hover {
+    background-color: #FEECB3;
+}
+
+th {
+    text-transform: uppercase;
+    font-size: 14px;
+}

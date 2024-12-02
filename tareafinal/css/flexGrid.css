@@ -1,0 +1,195 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    background-color: #ED3EF7;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    color: var(--verdefuerte);
+    font-size: 3.5rem;
+    margin-bottom: 5px;
+}
+
+:root {
+    --verdefuerte: #dba0df;
+    --verde: #f00ffc;
+    --verdeclaro: #a444a9;
+    --gris: #421544;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+  
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #84038a;
+    text-transform: uppercase;
+    border-bottom: 2px solid #FEECB3;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+  
+  
+.head-2, .p-ubicacion {
+    color: white !important;
+    margin-left: 2em;
+}
+  
+  
+span {
+    color: var(--verdeclaro);
+    font-size: 1.5rem;
+}
+    
+.fondo-nav {
+    background-color: var(--verdefuerte);
+}
+  
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--verdefuerte);
+    margin: 0 15%;
+}
+  
+.menu a {
+    color: var(--gris);
+    font-size: 1.5rem;
+    width: 15rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    padding: 1.5rem 0;
+}
+  
+.menu a:hover {
+    background-color: var(--gris);
+    color: var(--verdefuerte);
+}
+
+.section {
+    margin: 20px;
+}
+
+.example {
+    border: 2px solid #342e1c;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* Flexbox examples */
+.flex-container {
+    display: flex;
+    gap: 10px;
+    border: 1px solid #cec29b;
+    padding: 10px;
+}
+
+.flex-item {
+    background-color: #cac4b2;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.flex-grow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+/* Grid examples */
+.grid-container {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #ED3EF7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.example-6 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.example-7 {
+    grid-template-columns: 100px 1fr 2fr;
+}
+
+.example-8 {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.example-9 {
+    grid-template-areas: 
+        "header header header"
+        "menu content content"
+        "footer footer footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: #76127b;
+}
+
+.menu {
+    grid-area: menu;
+    background-color: #3f0642;
+}
+
+.content {
+    grid-area: content;
+    background-color: #ab8bac;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: white;
+}
+
+.footer {
+    background-color: white;
+    width: 120rem;
+    height: 3rem;
+    margin: 3rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .margen-footer {
+    margin-right: 1rem;
+    color: #946a96;
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+
+  main.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border: 1px solid #e0e0e0;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Personal - Flexbox y Grid</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/flexGrid.css">
+</head>
+<body>
+    <h1>Laisa Kenani Hernandez Guzman <span>Ingeniería en Computación</span></h1>
+
+    <!-- Menu de navegación -->
+    <div class="fondo-nav">
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="clientes.php">Clientes</a>
+            <a href="sobreMi.html">Sobre mi</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+    <h1>Ejemplos de Flexbox y Grid</h1>
+
+    <div class="section">
+        <h2>Flexbox</h2>
+
+        <!-- Example 1: Simple Flex -->
+        <div class="example">
+            <h3>Ejemplo 1: Flex Básico</h3>
+            <div class="flex-container">
+                <div class="flex-item">Item 1</div>
+                <div class="flex-item">Item 2</div>
+                <div class="flex-item">Item 3</div>
+            </div>
+        </div>
+
+        <!-- Example 2: Flex with Wrapping -->
+        <div class="example">
+            <h3>Ejemplo 2: Flex con Wrapping</h3>
+            <div class="flex-container" style="flex-wrap: wrap;">
+                <div class="flex-item" style="flex: 1 1 150px;">Item 1</div>
+                <div class="flex-item" style="flex: 1 1 150px;">Item 2</div>
+                <div class="flex-item" style="flex: 1 1 150px;">Item 3</div>
+                <div class="flex-item" style="flex: 1 1 150px;">Item 4</div>
+            </div>
+        </div>
+
+        <!-- Example 3: Flex Grow -->
+        <div class="example">
+            <h3>Ejemplo 3: Flex Grow</h3>
+            <div class="flex-grow">
+                <div class="flex-item">Item 1</div>
+                <div class="flex-item">Item 2</div>
+                <div class="flex-item">Item 3</div>
+            </div>
+        </div>
+
+        <!-- Example 4: Flex Align Items -->
+        <div class="example">
+            <h3>Ejemplo 4: Alineación en Flex</h3>
+            <div class="flex-container" style="align-items: flex-start; height: 150px;">
+                <div class="flex-item">Item 1</div>
+                <div class="flex-item">Item 2</div>
+                <div class="flex-item">Item 3</div>
+            </div>
+        </div>
+
+        <!-- Example 5: Flex Direction Column -->
+        <div class="example">
+            <h3>Ejemplo 5: Dirección de Flex en Columna</h3>
+            <div class="flex-container" style="flex-direction: column;">
+                <div class="flex-item">Item 1</div>
+                <div class="flex-item">Item 2</div>
+                <div class="flex-item">Item 3</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Grid</h2>
+
+        <!-- Example 6: Simple Grid -->
+        <div class="example">
+            <h3>Ejemplo 6: Grid Básico</h3>
+            <div class="grid-container example-6">
+                <div class="grid-item">Item 1</div>
+                <div class="grid-item">Item 2</div>
+                <div class="grid-item">Item 3</div>
+                <div class="grid-item">Item 4</div>
+            </div>
+        </div>
+
+        <!-- Example 7: Grid con Diferentes Anchos -->
+        <div class="example">
+            <h3>Ejemplo 7: Grid con Diferentes Anchos</h3>
+            <div class="grid-container example-7">
+                <div class="grid-item">Item 1</div>
+                <div class="grid-item">Item 2</div>
+                <div class="grid-item">Item 3</div>
+            </div>
+        </div>
+
+        <!-- Example 8: Grid Auto-fill -->
+        <div class="example">
+            <h3>Ejemplo 8: Grid con Auto-fill</h3>
+            <div class="grid-container example-8">
+                <div class="grid-item">Item 1</div>
+                <div class="grid-item">Item 2</div>
+                <div class="grid-item">Item 3</div>
+                <div class="grid-item">Item 4</div>
+            </div>
+        </div>
+
+        <!-- Example 9: Grid con Áreas -->
+        <div class="example">
+            <h3>Ejemplo 9: Grid con Áreas</h3>
+            <div class="grid-container example-9">
+                <div class="header grid-item">Header</div>
+                <div class="menu grid-item">Menu</div>
+                <div class="content grid-item">Contenido</div>
+                <div class="footer grid-item">Footer</div>
+            </div>
+        </div>
+
+        <!-- Example 10: Grid Absoluto -->
+        <div class="example">
+            <h3>Ejemplo 10: Grid con Posicionamiento Absoluto</h3>
+            <div class="grid-container example-6" style="position: relative;">
+                <div class="grid-item" style="grid-column: 1 / 3;">Item 1</div>
+                <div class="grid-item" style="position: absolute; top: 0; right: 0; background-color: #e63946;">Absoluto</div>
+                <div class="grid-item">Item 2</div>
+                <div class="grid-item">Item 3</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer sombra">
+        <footer class="margen-footer">
+            Todos los derechos reservados - Laisa Kenani Hernandez Guzman
+        </footer>
+    </div>
+</body>
+</html>

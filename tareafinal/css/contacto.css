@@ -1,0 +1,170 @@
+html {
+    box-sizing: border-box;
+    background-color: #BF2EF0;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    color: var(--verdefuerte);
+    font-size: 3.5rem;
+    margin-bottom: 5px;
+}
+
+:root {
+    --verdefuerte: #db8df6;
+    --verde: #5c256e;
+    --verdeclaro: #906d9c;
+    --gris: #2c0937;
+}
+
+/* Barra de navegación fija */
+.fondo-nav {
+    background-color: var(--verdefuerte);
+    position: fixed; /* Fija la barra de navegación en la parte superior */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    z-index: 1000; /* Asegura que esté sobre otros elementos */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0; /* Espaciado vertical */
+    margin: 0;
+}
+
+/* Ajuste del contenedor principal */
+.contact-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px 40px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto; /* Centra horizontalmente en su contenedor */
+    margin-top: 100px; /* Espacio para evitar solapamiento con la barra de navegación */
+}
+
+/* Centrado del contenido principal */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente el contenido */
+    margin: 0;
+    background-color: #bf01ff; /* Fondo general */
+    min-height: 100vh; /* Asegura que el contenido ocupe toda la ventana */
+    padding-top: 60px; /* Compensa la barra fija */
+}
+
+
+  
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #d453ff;
+    text-transform: uppercase;
+    border-bottom: 2px solid #FFF6EA;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+  
+  
+.head-2, .p-ubicacion {
+    color: white !important;
+    margin-left: 2em;
+}
+  
+  
+span {
+    color: var(--verdeclaro);
+    font-size: 1.5rem;
+}
+    
+.fondo-nav {
+    background-color: var(--verdefuerte);
+}
+  
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--verdefuerte);
+    margin: 0 15%;
+}
+  
+.menu a {
+    color: var(--gris);
+    font-size: 1.5rem;
+    width: 15rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    padding: 1.5rem 0;
+}
+  
+.menu a:hover {
+    background-color: var(--gris);
+    color: var(--verdefuerte);
+}
+
+/* Contact Container */
+.contact-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px 40px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #4f0967;
+}
+
+.contact-container .description {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #120316;
+}
+
+/* Contact Info */
+.contact-info {
+    display: grid;
+    gap: 20px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.1rem;
+}
+
+.info-item i.icon {
+    font-size: 2rem;
+    color: #BF2EF0;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #a131c7;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #bd87cf;
+}
